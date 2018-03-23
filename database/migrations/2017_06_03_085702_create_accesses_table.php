@@ -33,7 +33,7 @@ class CreateAccessesTable extends Migration
             $table->integer('access_id')->unsigned();
             $table->nullableTimestamps();
 
-            $table->primary(['user_id', 'accesses_id']);
+            //$table->primary(['user_id', 'accesses_id']);
         });
     }
 

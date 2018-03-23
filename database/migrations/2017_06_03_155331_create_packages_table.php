@@ -21,7 +21,7 @@ class CreatePackagesTable extends Migration
             $table->timestamps();
         });
 
-        Schema::create('', function (Blueprint $table) {
+        Schema::create('packages_accesses', function (Blueprint $table) {
             $table->integer('access_id')->unsigned();
             $table->integer('package_id')->unsigned();
         });

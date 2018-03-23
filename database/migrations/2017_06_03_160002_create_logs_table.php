@@ -27,7 +27,7 @@ class CreateLogsTable extends Migration
             $table->string('author_id');
             $table->string('user_changeme_id');
             $table->string('log_comment');
-            $table->timestamp('access_created');
+            $table->timestamp('access_created')->nullable();
             $table->timestamps();
         });
     }
